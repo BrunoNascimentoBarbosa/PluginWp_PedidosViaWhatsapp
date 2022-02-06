@@ -2,7 +2,7 @@
 /** 
  * Plugin Name: Pedidos
  * Plugin Url: #
- * Description: Esse plugin possibilita o cliente fazer um pedido via formulario em seguinda é redirecionado para o whatsapp
+ * Description: Esse plugin possibilita o cliente fazer um pedido via formulário em seguinda é redirecionado para o whatsapp
  * Version:1.0
  * Author: Bruno Nascimento
  * Author url: #
@@ -58,7 +58,7 @@ function pedido(){
     </input>
        <br>
 
-
+ 
         <label for="">Qual o local de entrega do seu pedido? </label>
         <input type="text" name="local" placeholder="Rua Dr Andre Barbosa N 35">
         <br>

@@ -17,17 +17,18 @@ function pedido(){
    $local = $_POST['local'];
    $nome = $_POST['nome'];
    $telefone = $_POST['telefone'];
+   $telefoneDesdino = 21974561726;
     
    
         
    echo "<h3>Faça o seu pedidos via whatsapp é simple e rápido.</h3>";
      
-   $texto_whatsapp = "Olá meu nome é " .$nome. " .Quero fazer um pedido do *produto*: " .$produto. ". Entrega é no endereço: " .$local. "  *Observação*: " .$obs ;
+   $texto_whatsapp = "Olá meu nome é " .$nome. "Meu telefone é: ".$telefone.".Quero fazer um pedido do *produto*: " .$produto. ". Entrega é no endereço: " .$local. "  *Observação*: " .$obs ;
 
    $mgs_whats = str_replace (' ','%20',$texto_whatsapp);
  
 
-   $action_url = "https://api.whatsapp.com/send?phone=" .$telefone. "&text=$mgs_whats";
+   $action_url = "https://api.whatsapp.com/send?phone=" .$telefoneDesdino. "&text=$mgs_whats";
                     
 
     ?>

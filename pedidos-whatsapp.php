@@ -27,7 +27,7 @@ function pedido(){
    $mgs_whats = str_replace (' ','%20',$texto_whatsapp);
  
 
-   $action_url = "https://api.whatsapp.com/send?phone=5521974561726&text=$mgs_whats";
+   $action_url = "https://api.whatsapp.com/send?phone=" .$telefone. "&text=$mgs_whats";
                     
 
     ?>
